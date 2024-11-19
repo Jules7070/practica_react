@@ -1,2 +1,2 @@
 # practica_react
-Ejercicio mósulo 24
+Ejercicio módulo 24
