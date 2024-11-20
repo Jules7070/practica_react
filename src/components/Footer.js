@@ -1,12 +1,14 @@
-// src/components/Footer.js
-import React from 'react';
+import React, { Component } from "react";
 
-function Footer() {
+class Footer extends Component {
+  render() {
+    const currentYear = new Date().getFullYear();
     return (
-        <footer>
-            <p>&copy; 2024 My React App</p>
-        </footer>
+      <footer>
+        <p>&copy; {currentYear} My App</p>
+      </footer>
     );
+  }
 }
 
 export default Footer;

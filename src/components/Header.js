@@ -1,12 +1,13 @@
-// src/components/Header.js
-import React from 'react';
+import React, { Component } from "react";
 
-function Header() {
-    return (
-        <header>
-            <h1>Hola Mundo : mi primer React</h1>
-        </header>
-    );
+class Header extends Component {
+  componentDidMount() {
+    console.log("Header mounted");
+  }
+
+  render() {
+    return <header><h1>Hola Mundo : Ejemplo react</h1></header>;
+  }
 }
 
 export default Header;
